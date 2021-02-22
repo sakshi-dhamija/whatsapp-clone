@@ -1,0 +1,22 @@
+.sidebar {
+  flex: 0.35;
+  background-color: rgb(84, 83, 83);
+}
+
+.sidebar__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.sidebar__headerRight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 10vw;
+}
+
+.sidebar__headerRight > .MuiIcon-root {
+  color: white;
+}
